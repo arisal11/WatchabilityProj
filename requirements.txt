@@ -1,0 +1,8 @@
+numpy
+pandas
+fastparquet
+scikit-learn
+lightgbm
+matplotlib
+nfl_data_py
+pytest
