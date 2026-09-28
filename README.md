@@ -70,10 +70,6 @@ Ridge ties gradient boosting, so I shipped Ridge. It's simpler, and because it's
 - **Leaky labels inflate scores.** An early version reached R² 0.25 only because a pre-game feature (division game) was copied straight into the label.
 - **Column semantics matter.** Three consecutive bugs came from nflverse fields that don't mean what they look like: `wp` flips every possession, and `home_score` is the *final* score on every row. Each was caught by checking famous games, not summary stats.
 
-## Personal taste loop
-
-Each week's games are appended to `data/my_ratings.csv`, and I rate the ones I watched from 1 to 5. Once there are about 40 ratings, the label's five weights will be refit to my ratings by regression instead of hand-picked. Early read on Week 3 (8 games): rank correlation 0.53 between the model's order and mine. Its two misses were blowouts it had ranked mid-pack.
-
 ## Project structure
 
 ```
