@@ -4,28 +4,26 @@ A machine-learning model that ranks each week's NFL games by how **worth watchin
 
 I built this as a hands-on project while working through an AI/ML engineering curriculum, covering linear algebra, optimization, statistics, classical ML, ensembles and validation. Every modeling decision here comes from a concept I was learning at the time, tested on real data rather than taken on faith. It's also something I actually use: every Sunday it tells me which games to put on.
 
-![2026 Week 4 rankings](docs/week4.png)
+![2026 Week 6 rankings](docs/week6.png)
 
-## This week: 2026 Week 4
+## This week: 2026 Week 6
 
 | # | Game | Kickoff (ET) | Score | Why |
 |---|------|-------------|------:|-----|
-| 1 | ATL @ NO | Mon 20:15 | 42.9 | division rivals; Vegas calls it a coin flip (2.5-pt spread) |
-| 2 | NE @ BUF | Sun 13:00 | 40.6 | division rivals; shootout expected (O/U 48.5); top QB Josh Allen; but likely lopsided (7-pt favorite) |
-| 3 | KC @ LV | Sun 16:25 | 40.4 | division rivals; top QB Patrick Mahomes; two winning teams |
-| 4 | JAX @ CIN | Sun 13:00 | 38.3 | coin flip (2.5-pt spread); shootout expected (O/U 50.5); top QB Joe Burrow; two winning teams |
-| 5 | NYJ @ CHI | Sun 13:00 | 38.2 | Geno Smith on a heater |
-| 6 | PIT @ CLE | Thu 20:15 | 37.7 | division rivals; coin flip (2.5-pt spread); two winning teams; Deshaun Watson on a heater |
-| 7 | DAL @ HOU | Sun 13:00 | 37.1 | coin flip (2.5-pt spread); top QB Dak Prescott |
-| 8 | ARI @ NYG | Sun 13:00 | 36.6 | coin flip (1.5-pt spread) |
-| 9 | LAC @ SEA | Sun 16:25 | 36.1 | nothing stands out |
-| 10 | LA @ PHI | Sun 13:00 | 36.1 | coin flip (2.5-pt spread); top QB Matthew Stafford |
-| 11 | IND @ WAS | Sun 09:30 | 35.5 | Daniel Jones in a slump |
-| 12 | DET @ CAR | Sun 20:20 | 35.0 | shootout expected (O/U 49.5); top QB Jared Goff |
-| 13 | GB @ TB | Sun 13:00 | 34.5 | top QB Jordan Love; Love and Baker Mayfield both in a slump |
-| 14 | DEN @ SF | Sun 16:25 | 34.5 | top QB Brock Purdy; two winning teams; Bo Nix in a slump; Purdy on a heater |
-| 15 | MIA @ MIN | Sun 16:05 | 32.2 | Kyler Murray in a slump; but likely lopsided (10.5-pt favorite) |
-| 16 | TEN @ BAL | Sun 13:00 | 30.8 | likely lopsided (11.5-pt favorite) |
+| 1 | HOU @ JAX | Sun 09:30 | 40.2 | division rivals; Vegas calls it a coin flip (2.5-pt spread); top QB Trevor Lawrence |
+| 2 | TEN @ IND | Sun 13:00 | 39.8 | division rivals; Daniel Jones in a slump; but likely lopsided (7-pt favorite) |
+| 3 | BAL @ CLE | Sun 13:00 | 39.5 | division rivals; two winning teams |
+| 4 | NYJ @ NE | Sun 13:00 | 39.2 | division rivals; top QB Drake Maye; but likely lopsided (7.5-pt favorite) |
+| 5 | CHI @ ATL | Sun 13:00 | 38.9 | coin flip (1.5-pt spread); shootout expected (O/U 51.5) |
+| 6 | DAL @ GB | Sun 20:20 | 38.3 | coin flip (1.5-pt spread); shootout expected (O/U 53.5); QB duel: Dak Prescott vs Jordan Love |
+| 7 | BUF @ LV | Sun 16:25 | 38.1 | shootout expected (O/U 53.5); top QB Josh Allen; two winning teams; Kirk Cousins on a heater |
+| 8 | ARI @ LA | Sun 16:05 | 38.0 | division rivals; shootout expected (O/U 51.5); top QB Matthew Stafford; but likely lopsided (12.5-pt favorite) |
+| 9 | LAC @ KC | Sun 16:25 | 36.9 | division rivals; top QB Patrick Mahomes; but likely lopsided (8.5-pt favorite) |
+| 10 | NO @ NYG | Sun 13:00 | 36.8 | coin flip (1.5-pt spread) |
+| 11 | SEA @ DEN | Thu 20:15 | 34.4 | coin flip (2.5-pt spread); two winning teams |
+| 12 | PIT @ TB | Sun 13:00 | 34.0 | coin flip (2.5-pt spread); Aaron Rodgers on a heater |
+| 13 | CAR @ PHI | Sun 13:00 | 33.7 | Jalen Hurts in a slump |
+| 14 | WAS @ SF | Mon 20:15 | 33.4 | shootout expected (O/U 51.5); top QB Brock Purdy; but likely lopsided (7.5-pt favorite) |
 
 ## How it works
 

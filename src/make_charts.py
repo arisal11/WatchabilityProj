@@ -84,7 +84,7 @@ def streak_chart(full: pd.DataFrame) -> None:
 if __name__ == "__main__":
     DOCS.mkdir(exist_ok=True)
     full = rebuild_tables()
-    week_chart(full, 4)
+    week_chart(full, 6)
     predictability_chart()
     streak_chart(full)
     print("wrote", sorted(p.name for p in DOCS.iterdir()))
