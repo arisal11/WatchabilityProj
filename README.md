@@ -4,26 +4,27 @@ A machine-learning model that ranks each week's NFL games by how **worth watchin
 
 I built this as a hands-on project while working through an AI/ML engineering curriculum, covering linear algebra, optimization, statistics, classical ML, ensembles and validation. Every modeling decision here comes from a concept I was learning at the time, tested on real data rather than taken on faith. It's also something I actually use: every Sunday it tells me which games to put on.
 
-![2026 Week 6 rankings](docs/week6.png)
+![2026 Week 9 rankings](docs/week9.png)
 
-## This week: 2026 Week 6
+## This week: 2026 Week 9
 
 | # | Game | Kickoff (ET) | Score | Why |
 |---|------|-------------|------:|-----|
-| 1 | HOU @ JAX | Sun 09:30 | 40.2 | division rivals; Vegas calls it a coin flip (2.5-pt spread); top QB Trevor Lawrence |
-| 2 | TEN @ IND | Sun 13:00 | 39.8 | division rivals; Daniel Jones in a slump; but likely lopsided (7-pt favorite) |
-| 3 | BAL @ CLE | Sun 13:00 | 39.5 | division rivals; two winning teams |
-| 4 | NYJ @ NE | Sun 13:00 | 39.2 | division rivals; top QB Drake Maye; but likely lopsided (7.5-pt favorite) |
-| 5 | CHI @ ATL | Sun 13:00 | 38.9 | coin flip (1.5-pt spread); shootout expected (O/U 51.5) |
-| 6 | DAL @ GB | Sun 20:20 | 38.3 | coin flip (1.5-pt spread); shootout expected (O/U 53.5); QB duel: Dak Prescott vs Jordan Love |
-| 7 | BUF @ LV | Sun 16:25 | 38.1 | shootout expected (O/U 53.5); top QB Josh Allen; two winning teams; Kirk Cousins on a heater |
-| 8 | ARI @ LA | Sun 16:05 | 38.0 | division rivals; shootout expected (O/U 51.5); top QB Matthew Stafford; but likely lopsided (12.5-pt favorite) |
-| 9 | LAC @ KC | Sun 16:25 | 36.9 | division rivals; top QB Patrick Mahomes; but likely lopsided (8.5-pt favorite) |
-| 10 | NO @ NYG | Sun 13:00 | 36.8 | coin flip (1.5-pt spread) |
-| 11 | SEA @ DEN | Thu 20:15 | 34.4 | coin flip (2.5-pt spread); two winning teams |
-| 12 | PIT @ TB | Sun 13:00 | 34.0 | coin flip (2.5-pt spread); Aaron Rodgers on a heater |
-| 13 | CAR @ PHI | Sun 13:00 | 33.7 | Jalen Hurts in a slump |
-| 14 | WAS @ SF | Mon 20:15 | 33.4 | shootout expected (O/U 51.5); top QB Brock Purdy; but likely lopsided (7.5-pt favorite) |
+| 1 | CIN @ ATL | Sun 09:30 | 39.0 | shootout expected (O/U 52.5); top QB Joe Burrow; Joe Burrow on a heater; Michael Penix Jr. in a slump |
+| 2 | NYG @ PHI | Sun 13:00 | 38.3 | division rivals; J.J. McCarthy on a heater |
+| 3 | BUF @ MIN | Mon 20:15 | 37.2 | top QB Josh Allen; two winning teams |
+| 4 | DAL @ IND | Sun 13:00 | 36.7 | shootout expected (O/U 51.5); top QB Dak Prescott; Daniel Jones in a slump |
+| 5 | DET @ MIA | Sun 13:00 | 36.0 | shootout expected (O/U 50.5); top QB Jared Goff; but likely lopsided (7-pt favorite) |
+| 6 | HOU @ LAC | Sun 16:05 | 35.7 | Justin Herbert in a slump |
+| 7 | GB @ NE | Sun 16:25 | 35.3 | top QB Jordan Love; two winning teams; Drake Maye on a heater |
+| 8 | CLE @ NO | Sun 13:00 | 35.1 | nothing stands out |
+| 9 | ARI @ SEA | Sun 16:25 | 35.0 | division rivals; but likely lopsided (8.5-pt favorite) |
+| 10 | DEN @ CAR | Sun 13:00 | 34.9 | Vegas calls it a coin flip (2.5-pt spread); Bryce Young in a slump |
+| 11 | LA @ WAS | Sun 13:00 | 34.3 | top QB Matthew Stafford; Matthew Stafford in a slump |
+| 12 | TB @ CHI | Sun 20:20 | 33.1 | nothing stands out |
+| 13 | LV @ SF | Sun 16:05 | 32.1 | shootout expected (O/U 52.5); top QB Brock Purdy; Brock Purdy in a slump; but likely lopsided (10-pt favorite) |
+| 14 | NYJ @ KC | Sun 13:00 | 31.6 | Geno Smith on a heater; but likely lopsided (10-pt favorite) |
+| 15 | JAX @ BAL | Thu 20:15 | 28.2 | top QB Trevor Lawrence; but likely lopsided (10-pt favorite) |
 
 ## How it works
 

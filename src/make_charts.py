@@ -22,8 +22,12 @@ plt.rcParams.update({
 })
 
 
-def week_chart(full: pd.DataFrame, week: int) -> pd.DataFrame:
+def week_chart(full: pd.DataFrame, week: int | None = None) -> pd.DataFrame:
+    """Chart a week's board; defaults to the next unplayed week. Replaces older week charts."""
     board = rank_week(full, week=week)
+    week = board.attrs["week"]
+    for old in DOCS.glob("week*.png"):
+        old.unlink()
     b = board.iloc[::-1]
     fig, ax = plt.subplots(figsize=(8, 6.2))
     ax.barh(b.away_team + " @ " + b.home_team, b.pred, color=BLUE, height=0.7)
@@ -84,7 +88,7 @@ def streak_chart(full: pd.DataFrame) -> None:
 if __name__ == "__main__":
     DOCS.mkdir(exist_ok=True)
     full = rebuild_tables()
-    week_chart(full, 6)
+    week_chart(full)
     predictability_chart()
     streak_chart(full)
     print("wrote", sorted(p.name for p in DOCS.iterdir()))
